@@ -66,6 +66,19 @@ public class SampleReels extends Model<SampleReels> {
      */
     private Integer commentNum;
 
+    /**
+     * 查看数
+     * @return
+     */
+    private  Long viewNum;
+
+    public Long getViewNum() {
+        return viewNum;
+    }
+
+    public void setViewNum(Long viewNum) {
+        this.viewNum = viewNum;
+    }
 
     public Long getSampleReelsId() {
         return sampleReelsId;
