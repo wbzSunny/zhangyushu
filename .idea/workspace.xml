@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bde37b0-0298-48a0-a4ce-3925de5ef172" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/VerifyToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant/UserConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/impl/src/main/java/com/lzqs/zhangyushu/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/impl/src/main/java/com/lzqs/zhangyushu/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java" afterDir="false" />
     </list>
@@ -27,50 +31,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/src/main/java/com/lzqs/zhangyushu/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant/UserConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,10 +63,14 @@
         <option value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/httpRequest/HttpRequest.java" />
         <option value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/wxLogin/WeChatLogin.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java" />
-        <option value="$PROJECT_DIR$/impl/src/main/java/com/lzqs/zhangyushu/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant/UserConstant.java" />
+        <option value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/AdminJwtUtil.java" />
+        <option value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/entity/User.java" />
+        <option value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/verifyToken.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java" />
+        <option value="$PROJECT_DIR$/impl/src/main/java/com/lzqs/zhangyushu/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -400,7 +365,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lzqs" type="462c0819:PsiDirectoryNode" />
               <item name="zhangyushu" type="462c0819:PsiDirectoryNode" />
-              <item name="wxLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="token" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -419,7 +384,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test/zhangyushu/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -432,11 +397,11 @@
       <recent name="com.lzqs.zhangyushu.generator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wbz\git\zhangyu\util\src\main\java\com\lzqs\zhangyushu" />
       <recent name="D:\wbz\zhangyu\util\src\main\java\com\lzqs\zhangyushu" />
       <recent name="D:\wbz\zhangyu\util\src\main\java\com\lzqs\zhangyushu\wxLogin" />
       <recent name="D:\wbz\zhangyu\bean\src\main\java\com\lzqs\zhangyushu" />
       <recent name="D:\wbz\zhangyu\app\src\main\resources" />
-      <recent name="D:\wbz\zhangyu\admin\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -521,7 +486,7 @@
       <updated>1562221796051</updated>
       <workItem from="1562221798520" duration="5109000" />
       <workItem from="1562233446230" duration="5683000" />
-      <workItem from="1562287564971" duration="2302000" />
+      <workItem from="1562287564971" duration="6623000" />
     </task>
     <task id="LOCAL-00001" summary="上传章鱼书 相关">
       <created>1562233537859</created>
@@ -572,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562288796944</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="11">
+      <created>1562290609557</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562290609557</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -581,12 +553,46 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13094000" />
+    <option name="totallyTimeSpent" value="17415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928367" weight="0.32974428" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143266" side_tool="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49856734" weight="0.32839838" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3295129" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -620,7 +626,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -788,20 +794,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java">
+    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant/UserConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/AppJwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/JwtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="175">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/token/VerifyToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -810,15 +823,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/src/main/java/com/lzqs/zhangyushu/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="-7">
+          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="63" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/Constant/UserConstant.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="425">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bean/src/main/java/com/lzqs/zhangyushu/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+          <folding>
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2231#2232#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2294#2295#0" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+            <element signature="e#2435#2436#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2511#2512#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+            <element signature="e#2765#2766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
