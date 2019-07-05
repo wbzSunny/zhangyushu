@@ -2,6 +2,8 @@ package com.lzqs.zhangyushu.dao;
 
 import com.lzqs.zhangyushu.entity.Product;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Component;
 
 /**
  * <p>
@@ -11,6 +13,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author ${author}
  * @since 2019-07-04
  */
+@Component
+@Mapper
 public interface ProductMapper extends BaseMapper<Product> {
 
 }
