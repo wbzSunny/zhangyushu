@@ -4,6 +4,8 @@ import com.lzqs.zhangyushu.commomConstant.ReturnMessage;
 import com.lzqs.zhangyushu.paramUtil.ParamCheckUtils;
 import com.lzqs.zhangyushu.paramUtil.ParamTransformationUtils;
 import com.lzqs.zhangyushu.service.UserService;
+import com.lzqs.zhangyushu.wxLogin.WeChatLogin;
+import com.lzqs.zhangyushu.wxLogin.WxLoginVo;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,6 +29,11 @@ public class AppLoginController {
         String code = ParamTransformationUtils.transformToString(map.get("code"));
         if (ParamCheckUtils.paramIsNull(code)){
             return  ReturnMessage.failWithMsg("code 不能是空");
+        }
+        WxLoginVo wxLoginVo = WeChatLogin.login(code);
+        if(wxLoginVo.getOpenid() != null){
+            System.out.println("====================微信的 openId============"+wxLoginVo.getOpenid());
+            userService.queryUserByOpenId(wxLoginVo.getOpenid());
         }
         return  null;
     }

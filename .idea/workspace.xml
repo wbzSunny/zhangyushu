@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bde37b0-0298-48a0-a4ce-3925de5ef172" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean/bean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bean/bean.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/impl/impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/mapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/mapper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhangyu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zhangyu.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +36,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="518">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/SampleReelsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/wxLogin/WeChatLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,6 +131,8 @@
         <option value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/httpRequest/HttpRequest.java" />
         <option value="$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/wxLogin/WeChatLogin.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -244,6 +308,74 @@
             <path>
               <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzqs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzqs" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyushu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzqs" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyushu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhangyu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhangyu" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,7 +457,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test/zhangyushu/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -424,7 +556,7 @@
       <updated>1562221796051</updated>
       <workItem from="1562221798520" duration="5109000" />
       <workItem from="1562233446230" duration="5683000" />
-      <workItem from="1562287564971" duration="332000" />
+      <workItem from="1562287564971" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="上传章鱼书 相关">
       <created>1562233537859</created>
@@ -461,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562240389603</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="上传章鱼书 第一次">
+      <created>1562288035234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562288035234</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -470,7 +609,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11124000" />
+    <option name="totallyTimeSpent" value="12007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -493,11 +632,11 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928367" weight="0.32974428" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143266" side_tool="true" visible="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49928367" weight="0.32839838" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49856734" weight="0.32839838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,7 +654,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传章鱼书 相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传章鱼书 相关" />
+    <MESSAGE value="上传章鱼书 第一次" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bean/pom.xml">
@@ -554,11 +695,6 @@
         <state relative-caret-position="644">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/pom.xml">
@@ -650,18 +786,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/src/main/java/com/lzqs/zhangyushu/wxLogin/WeChatLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="239">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lzqs/zhangyushu/controller/AppLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="518">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/SampleReelsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/lzqs/zhangyushu/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
         </state>
       </provider>
     </entry>
