@@ -12,7 +12,7 @@
     <artifactId>util</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.lzps.lcp</groupId>
+            <groupId>com.lzqs.zhangyushu</groupId>
             <artifactId>bean</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
