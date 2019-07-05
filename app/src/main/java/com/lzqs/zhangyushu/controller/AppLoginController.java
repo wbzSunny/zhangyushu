@@ -1,6 +1,7 @@
 package com.lzqs.zhangyushu.controller;
 
 import com.lzqs.zhangyushu.commomConstant.ReturnMessage;
+import com.lzqs.zhangyushu.paramUtil.ParamCheckUtils;
 import com.lzqs.zhangyushu.paramUtil.ParamTransformationUtils;
 import com.lzqs.zhangyushu.service.UserService;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,6 +25,9 @@ public class AppLoginController {
     @PostMapping("/login")
     public ReturnMessage login(@RequestBody Map<String ,Object> map){
         String code = ParamTransformationUtils.transformToString(map.get("code"));
+        if (ParamCheckUtils.paramIsNull(code)){
+            return  ReturnMessage.failWithMsg("code 不能是空");
+        }
         return  null;
     }
 
