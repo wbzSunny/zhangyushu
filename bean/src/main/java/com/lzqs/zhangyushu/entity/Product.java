@@ -1,11 +1,13 @@
 package com.lzqs.zhangyushu.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * <p>
@@ -56,6 +58,20 @@ public class Product extends Model<Product> {
      */
     private Long sampleReelsId;
 
+    /**
+     * 作品 图片list
+     * @return
+     */
+    @TableField(exist = false)
+    private List<ProductImg> productImgList;
+
+    public List<ProductImg> getProductImgList() {
+        return productImgList;
+    }
+
+    public void setProductImgList(List<ProductImg> productImgList) {
+        this.productImgList = productImgList;
+    }
 
     public Long getProductionId() {
         return productionId;

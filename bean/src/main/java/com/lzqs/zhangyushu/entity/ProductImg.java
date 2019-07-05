@@ -1,5 +1,6 @@
 package com.lzqs.zhangyushu.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
@@ -41,6 +42,20 @@ public class ProductImg extends Model<ProductImg> {
      */
     private LocalDateTime addTime;
 
+    /**
+     * 图片 读取url
+     * @return
+     */
+    @TableField(exist = false)
+    private  String imgUrl;
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
+    }
 
     public Long getProductImgId() {
         return productImgId;
