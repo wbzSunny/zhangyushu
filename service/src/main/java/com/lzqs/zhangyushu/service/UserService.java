@@ -12,6 +12,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2019-07-04
  */
 public interface UserService extends IService<User> {
-
-    void queryUserByOpenId(String openid);
+    //登录时根据openID 获取用户信息 不存在 就添加用户
+    User queryUserByOpenId(String openid);
 }

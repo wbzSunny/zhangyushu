@@ -1,6 +1,7 @@
 package com.lzqs.zhangyushu.controller;
 
 import com.lzqs.zhangyushu.commomConstant.ReturnMessage;
+import com.lzqs.zhangyushu.entity.User;
 import com.lzqs.zhangyushu.paramUtil.ParamCheckUtils;
 import com.lzqs.zhangyushu.paramUtil.ParamTransformationUtils;
 import com.lzqs.zhangyushu.service.UserService;
@@ -33,7 +34,7 @@ public class AppLoginController {
         WxLoginVo wxLoginVo = WeChatLogin.login(code);
         if(wxLoginVo.getOpenid() != null){
             System.out.println("====================微信的 openId============"+wxLoginVo.getOpenid());
-            userService.queryUserByOpenId(wxLoginVo.getOpenid());
+            User user = userService.queryUserByOpenId(wxLoginVo.getOpenid());
         }
         return  null;
     }
